@@ -73,4 +73,69 @@
     font-size: 10px;
     display:flex;
     justify-content: flex-start;
+    margin:0px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .proyectos{
+    justify-content: flex-end;
+    max-width: 1500px;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+    column-count: 2;
+  }
+  .informacion1 {
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+  }
+
+  .informacion2 {
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    color: black;
+  }
+  .juegos {
+    justify-content:center
+  }
+
+  .proyectos-botones {
+    display: flex;
+    justify-content: left;
+    gap: 10px; 
+    margin: 10px 0;
+    padding-left: 10px;
+  }
+
+ 
+  .proyectos-botones a {
+    background-color: #01131c;
+    padding: 5px 10px;
+    border-radius: 10%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+  }
+  .proyectos-botones a:hover {
+    background-color: #16688e;
+  }
+
+  .botones-info {
+    display: flex;
+    align-items: center;
+    background-color: #a8dbf5;
+    padding: 5px 10px;
+    border-radius: 10%;
+    transition: 0.3s;
+  }
+  .botones-info img {
+    width: 30px; 
+    height: auto; 
+    margin-right: 5px;
+  }
+  .botones-info span {
+    margin-left: 5px;
   }
